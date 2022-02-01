@@ -4,6 +4,8 @@ target 'DemoApp' do
 
   # Pods for DemoApp
   pod 'Mux-Stats-Google-IMA-Kaltura', :path => '../'
+# Remove next line before release
+  pod 'Mux-Stats-Kaltura', :path => '../../mux-stats-sdk-kaltura-ios'
   pod 'PlayKit_IMA'
 end
 
@@ -14,3 +16,4 @@ end
   # pod 'Mux-Stats-Google-IMA-Kaltura', :path => '../'
   # pod 'PlayKit_IMA'
 # end
+
