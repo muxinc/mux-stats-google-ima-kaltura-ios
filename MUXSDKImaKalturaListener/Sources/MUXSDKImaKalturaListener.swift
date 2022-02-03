@@ -50,12 +50,12 @@ public class MUXSDKImaKalturaListener {
         switch event {
         case is AdEvent.AdDidRequestContentPause:
             playbackEvents.append(MUXSDKAdBreakStartEvent())
-            playbackEvents.append(MUXSDKAdRequestEvent())
+            playbackEvents.append(MUXSDKAdPlayEvent())
         case is AdEvent.AdDidRequestContentResume:
             playbackEvents.append(MUXSDKAdBreakEndEvent())
         case is AdEvent.AdLoaded:
+            playbackEvents.append(MUXSDKAdRequestEvent())
             playbackEvents.append(MUXSDKAdResponseEvent())
-            playbackEvents.append(MUXSDKAdPlayEvent())
         case is AdEvent.AdStarted:
             playbackEvents.append(MUXSDKAdPlayingEvent())
         case is AdEvent.AdFirstQuartile:
