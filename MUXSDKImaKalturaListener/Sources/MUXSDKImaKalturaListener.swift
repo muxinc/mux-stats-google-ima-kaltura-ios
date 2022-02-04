@@ -2,7 +2,8 @@
 //  MUXSDKImaKalturaListener.swift
 //  Mux-Stats-Google-IMA-Kaltura
 //
-//  Created by Stephanie Zuñiga on 27/1/22.
+//  Created by Stephanie Zuñiga on 3/02/22.
+//  Copyright © 2022 Mux, Inc. All rights reserved.
 //
 
 import MUXSDKKaltura
@@ -44,7 +45,7 @@ public class MUXSDKImaKalturaListener {
         }
     }
     
-    private func dispatch(event: PKEvent) {
+    func dispatch(event: PKEvent) {
         var playbackEvents = [MUXSDKPlaybackEvent]()
         
         switch event {

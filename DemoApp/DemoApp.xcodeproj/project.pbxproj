@@ -12,9 +12,6 @@
 		E99AEDF527A1EF1A007E44D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AEDF427A1EF1A007E44D3 /* SceneDelegate.swift */; };
 		E99AEDFC27A1EF1C007E44D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99AEDFB27A1EF1C007E44D3 /* Assets.xcassets */; };
 		E99AEDFF27A1EF1C007E44D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99AEDFD27A1EF1C007E44D3 /* LaunchScreen.storyboard */; };
-		E99AEE0E27A1F6B7007E44D3 /* launch-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = E99AEE0627A1F6B6007E44D3 /* launch-landscape.png */; };
-		E99AEE0F27A1F6B7007E44D3 /* launch-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = E99AEE0727A1F6B6007E44D3 /* launch-portrait.png */; };
-		E99AEE1027A1F6B7007E44D3 /* launch-full.png in Resources */ = {isa = PBXBuildFile; fileRef = E99AEE0827A1F6B6007E44D3 /* launch-full.png */; };
 		E99AEE1127A1F6B7007E44D3 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AEE0927A1F6B6007E44D3 /* PlayerViewController.swift */; };
 		E99AEE1227A1F6B7007E44D3 /* PlayerViewController+IMA.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AEE0A27A1F6B6007E44D3 /* PlayerViewController+IMA.swift */; };
 		E99AEE1327A1F6B7007E44D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AEE0B27A1F6B6007E44D3 /* HomeViewController.swift */; };
@@ -32,9 +29,6 @@
 		E99AEDFB27A1EF1C007E44D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E99AEDFE27A1EF1C007E44D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E99AEE0027A1EF1C007E44D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E99AEE0627A1F6B6007E44D3 /* launch-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch-landscape.png"; sourceTree = "<group>"; };
-		E99AEE0727A1F6B6007E44D3 /* launch-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch-portrait.png"; sourceTree = "<group>"; };
-		E99AEE0827A1F6B6007E44D3 /* launch-full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch-full.png"; sourceTree = "<group>"; };
 		E99AEE0927A1F6B6007E44D3 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		E99AEE0A27A1F6B6007E44D3 /* PlayerViewController+IMA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlayerViewController+IMA.swift"; sourceTree = "<group>"; };
 		E99AEE0B27A1F6B6007E44D3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -93,9 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				E99AEE0B27A1F6B6007E44D3 /* HomeViewController.swift */,
-				E99AEE0827A1F6B6007E44D3 /* launch-full.png */,
-				E99AEE0627A1F6B6007E44D3 /* launch-landscape.png */,
-				E99AEE0727A1F6B6007E44D3 /* launch-portrait.png */,
 				E99AEE0927A1F6B6007E44D3 /* PlayerViewController.swift */,
 				E99AEE0A27A1F6B6007E44D3 /* PlayerViewController+IMA.swift */,
 				E99AEDF227A1EF1A007E44D3 /* AppDelegate.swift */,
@@ -180,9 +171,6 @@
 				E99AEE1427A1F6B7007E44D3 /* InfoTvOS.plist in Resources */,
 				E99AEDFF27A1EF1C007E44D3 /* LaunchScreen.storyboard in Resources */,
 				E99AEDFC27A1EF1C007E44D3 /* Assets.xcassets in Resources */,
-				E99AEE0E27A1F6B7007E44D3 /* launch-landscape.png in Resources */,
-				E99AEE0F27A1F6B7007E44D3 /* launch-portrait.png in Resources */,
-				E99AEE1027A1F6B7007E44D3 /* launch-full.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
