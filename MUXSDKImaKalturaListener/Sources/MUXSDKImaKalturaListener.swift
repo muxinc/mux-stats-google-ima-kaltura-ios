@@ -26,6 +26,7 @@ public class MUXSDKImaKalturaListener {
     
     public func start() {
         let events: [PKEvent.Type] = [
+            AdEvent.adsRequested,
             AdEvent.adDidRequestContentPause,
             AdEvent.adDidRequestContentResume,
             AdEvent.adLoaded,
@@ -49,13 +50,14 @@ public class MUXSDKImaKalturaListener {
         var playbackEvents = [MUXSDKPlaybackEvent]()
         
         switch event {
+        case is AdEvent.AdsRequested:
+            playbackEvents.append(MUXSDKAdRequestEvent())
         case is AdEvent.AdDidRequestContentPause:
             playbackEvents.append(MUXSDKAdBreakStartEvent())
             playbackEvents.append(MUXSDKAdPlayEvent())
         case is AdEvent.AdDidRequestContentResume:
             playbackEvents.append(MUXSDKAdBreakEndEvent())
         case is AdEvent.AdLoaded:
-            playbackEvents.append(MUXSDKAdRequestEvent())
             playbackEvents.append(MUXSDKAdResponseEvent())
         case is AdEvent.AdStarted:
             playbackEvents.append(MUXSDKAdPlayingEvent())
