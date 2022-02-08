@@ -11,6 +11,7 @@ import PlayKit
 import MUXSDKKaltura
 import MuxCore
 import MediaPlayer
+import Mux_Stats_Google_IMA_Kaltura
 
 class PlayerViewController: UIViewController {
     private var kalturaPlayer: Player?
@@ -190,11 +191,14 @@ class PlayerViewController: UIViewController {
             return
         }
         
-        MUXSDKStats.monitorPlayer(
+        let playerBinding = MUXSDKStats.monitorPlayer(
             player: player,
             playerName: self.playerName,
             customerData: data
         )
+        
+        let listener = MUXSDKImaKalturaListener(playerBinding: playerBinding, player: player)
+        listener.start()
     }
     
     func MUXVideoChange() {
