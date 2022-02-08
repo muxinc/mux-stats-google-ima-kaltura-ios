@@ -3,7 +3,7 @@ target 'DemoApp' do
   use_frameworks!
 
   # Pods for DemoApp
-  pod 'Mux-Stats-Google-IMA-Kaltura', :path => '../'
+  pod 'Mux-Stats-Google-IMA-Kaltura', :path => '../', :testspecs => ['Tests'] 
 # Remove next line before release
   pod 'Mux-Stats-Kaltura', :path => '../../mux-stats-sdk-kaltura-ios'
   pod 'PlayKit_IMA'
