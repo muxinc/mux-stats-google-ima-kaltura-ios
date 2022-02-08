@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Mux-Stats-Google-IMA-Kaltura'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Mux-Stats-Google-IMA-Kaltura is for tracking performance analytics and QoS monitoring for video with mux.com.'
   
   s.description      = <<-DESC

@@ -34,6 +34,7 @@ class MUXSDKImaKalturaListenerTests: XCTestCase {
         
         // Dispatch AdEvents
         
+        listener.dispatch(event: AdEvent.AdsRequested())
         listener.dispatch(event: AdEvent.AdDidRequestContentPause())
         listener.dispatch(event: AdEvent.AdDidRequestContentResume())
         listener.dispatch(event: AdEvent.AdLoaded())
@@ -50,10 +51,10 @@ class MUXSDKImaKalturaListenerTests: XCTestCase {
         // Assert expected event types
         
         let expectedEvents = [
+            MUXSDKPlaybackEventAdRequestEventType,
             MUXSDKPlaybackEventAdBreakStartEventType,
             MUXSDKPlaybackEventAdPlayEventType,
             MUXSDKPlaybackEventAdBreakEndEventType,
-            MUXSDKPlaybackEventAdRequestEventType,
             MUXSDKPlaybackEventAdResponseEventType,
             MUXSDKPlaybackEventAdPlayingEventType,
             MUXSDKPlaybackEventAdFirstQuartileEventType,
