@@ -8,14 +8,14 @@ PODS:
   - Mux-Stats-Google-IMA-Kaltura (1.0.0):
     - GoogleAds-IMA-iOS-SDK (~> 3.13)
     - GoogleAds-IMA-tvOS-SDK (~> 4.3)
-    - Mux-Stats-Kaltura (~> 1.0.0)
+    - Mux-Stats-Kaltura (~> 1.1.0)
     - PlayKit_IMA
   - Mux-Stats-Google-IMA-Kaltura/Tests (1.0.0):
     - GoogleAds-IMA-iOS-SDK (~> 3.13)
     - GoogleAds-IMA-tvOS-SDK (~> 4.3)
-    - Mux-Stats-Kaltura (~> 1.0.0)
+    - Mux-Stats-Kaltura (~> 1.1.0)
     - PlayKit_IMA
-  - Mux-Stats-Kaltura (1.0.0):
+  - Mux-Stats-Kaltura (1.1.0):
     - Mux-Stats-Core (~> 3.5)
     - PlayKit (~> 3.21)
   - ObjcExceptionBridging (1.0.1):
@@ -42,7 +42,6 @@ PODS:
 DEPENDENCIES:
   - Mux-Stats-Google-IMA-Kaltura (from `../`)
   - Mux-Stats-Google-IMA-Kaltura/Tests (from `../`)
-  - Mux-Stats-Kaltura (from `../../mux-stats-sdk-kaltura-ios`)
   - PlayKit_IMA
 
 SPEC REPOS:
@@ -50,6 +49,7 @@ SPEC REPOS:
     - GoogleAds-IMA-iOS-SDK
     - KalturaNetKit
     - Mux-Stats-Core
+    - Mux-Stats-Kaltura
     - ObjcExceptionBridging
     - PlayKit
     - PlayKit_IMA
@@ -60,15 +60,13 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   Mux-Stats-Google-IMA-Kaltura:
     :path: "../"
-  Mux-Stats-Kaltura:
-    :path: "../../mux-stats-sdk-kaltura-ios"
 
 SPEC CHECKSUMS:
   GoogleAds-IMA-iOS-SDK: c190284044e9a28b3e7422ba9886db015c71a84f
   KalturaNetKit: 8774fdc2e73d3d013c3df88aa49376dd922d3606
   Mux-Stats-Core: cb72e59db58a12f04a54a7634567f20f16b9453a
-  Mux-Stats-Google-IMA-Kaltura: 3dd7ec7647fe406f0a10c6930a007142898cfe96
-  Mux-Stats-Kaltura: f8ea20bf722599b8a9ed007fe891b547e73e10b8
+  Mux-Stats-Google-IMA-Kaltura: a452a4f42bb05e6979ef83edc73ef78ae408e1d6
+  Mux-Stats-Kaltura: aec62bce84d58ddd02a259fca4125343dc40aaa4
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
   PlayKit: ccb50808c5ddbf416d309b42a000b9086ef69149
   PlayKit_IMA: 356faeeeeda85707834ad1dc0b4a50582136617f
@@ -76,6 +74,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   XCGLogger: 0434f15e3909cdc450bb63faf638b8792ab782ab
 
-PODFILE CHECKSUM: 6accf799f5b80f707ee9d68800da38e458ac2799
+PODFILE CHECKSUM: a557b42b510f7442559a31e2c194117647a3a9f5
 
 COCOAPODS: 1.11.2

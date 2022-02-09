@@ -17,12 +17,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.tvos.deployment_target = '11.0'
 
-  s.ios.dependency 'Mux-Stats-Kaltura', '~> 1.0.0'
+  s.ios.dependency 'Mux-Stats-Kaltura', '~> 1.1.0'
   s.ios.dependency 'PlayKit_IMA'
   s.ios.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.13'
   s.ios.source_files = 'MUXSDKImaKalturaListener/Sources/**/*'
 
-  s.tvos.dependency 'Mux-Stats-Kaltura', '~> 1.0.0'
+  s.tvos.dependency 'Mux-Stats-Kaltura', '~> 1.1.0'
   s.tvos.dependency 'PlayKit_IMA'
   s.tvos.dependency 'GoogleAds-IMA-tvOS-SDK', '~> 4.3'
   s.tvos.source_files = 'MUXSDKImaKalturaListener/Sources/**/*'
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   }
 
   s.test_spec 'Tests' do |test_spec|
-    test_spec.source_files = 'MUXSDKImaKalturaListener/Tests/**/*'
+    test_spec.source_files = 'MUXSDKImaKalturaListener/Tests/*.swift'
     test_spec.scheme = { 
       :launch_arguments => ["TEST"]
     }
