@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Mux-Stats-Google-IMA-Kaltura'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Mux-Stats-Google-IMA-Kaltura is for tracking performance analytics and QoS monitoring for video with mux.com.'
   
   s.description      = <<-DESC
@@ -20,10 +20,10 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MUXSDKImaKalturaListener/Sources/**/*'
 
-  s.ios.dependency 'Mux-Stats-Kaltura', '~> 1.1.1'
+  s.ios.dependency 'Mux-Stats-Kaltura', '~> 2.0'
   s.ios.dependency 'PlayKit_IMA'
 
-  s.tvos.dependency 'Mux-Stats-Kaltura', '~> 1.1.1'
+  s.tvos.dependency 'Mux-Stats-Kaltura', '~> 2.0'
   s.tvos.dependency 'PlayKit_IMA'
 
   s.pod_target_xcconfig = {
