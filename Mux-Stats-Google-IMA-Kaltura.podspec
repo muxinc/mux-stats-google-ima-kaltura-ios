@@ -34,10 +34,12 @@ Pod::Spec.new do |s|
     'EXCLUDED_ARCHS[sdk=appletvsimulator*]' => 'arm64'
   }
 
-  s.test_spec 'Tests' do |test_spec|
-    test_spec.source_files = 'MUXSDKImaKalturaListener/Tests/*'
-    test_spec.scheme = { 
-      :launch_arguments => ["TEST"]
-    }
-  end
+  # <em> This only works on x86 machines due to problems upstream. We can rely on the PR checks for now
+  #  (as of: 3/17/2023)
+  #s.test_spec 'Tests' do |test_spec|
+  #  test_spec.source_files = 'MUXSDKImaKalturaListener/Tests/*'
+  #  test_spec.scheme = { 
+  #    :launch_arguments => ["TEST"]
+  #  }
+  #end
 end
