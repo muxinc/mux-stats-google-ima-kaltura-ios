@@ -11,7 +11,7 @@ PODS:
   - Mux-Stats-Google-IMA-Kaltura/Tests (1.0.1):
     - Mux-Stats-Kaltura (~> 2.0)
     - PlayKit_IMA
-  - Mux-Stats-Kaltura (2.0.0):
+  - Mux-Stats-Kaltura (2.0.1):
     - Mux-Stats-Core (~> 4.4)
     - PlayKit (~> 3.21)
   - ObjcExceptionBridging (1.0.1):
@@ -61,8 +61,8 @@ SPEC CHECKSUMS:
   GoogleAds-IMA-iOS-SDK: c190284044e9a28b3e7422ba9886db015c71a84f
   KalturaNetKit: 2af6c3c2a1abbd8936b5acde45f33f5195125f4a
   Mux-Stats-Core: 02410ed63b9c5de10aa5a782144be571cfa54428
-  Mux-Stats-Google-IMA-Kaltura: 30b3291dd094261fbf5a5dece84b29c6ce115895
-  Mux-Stats-Kaltura: 7b1230ca1396ebf86e71686de3ff8e8d99219738
+  Mux-Stats-Google-IMA-Kaltura: 7b3babef5e8c9d8e1e0b0aac5261ca757bddd50f
+  Mux-Stats-Kaltura: b4604c0bb3acb51e30ac07e23e8c74b5bc9497ab
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
   PlayKit: 4e2c81a6495b2266cc523f767e6e36eb78305ac0
   PlayKit_IMA: 666c7c06853058802ca552d2fb9c8dc25db1ed74
