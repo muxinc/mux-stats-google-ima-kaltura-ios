@@ -1,0 +1,32 @@
+source 'https://github.com/andrewjl-mux/Specs.git'
+source 'https://github.com/Cocoapods/Specs.git'
+
+target 'DemoApp' do
+  platform :ios, '13.0'
+  use_frameworks!
+
+  # Pods for DemoApp
+  pod 'Mux-Stats-Google-IMA-Kaltura', :path => '../../'
+  pod 'PlayKit_IMA'
+end
+
+# target 'DemoAppTvOS' do
+  # platform :tvos, '13.0'
+  # use_frameworks!
+  
+  # pod 'Mux-Stats-Google-IMA-Kaltura', :path => '../..'
+  # pod 'PlayKit_IMA'
+# end
+
+post_install do |installer|
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+      end
+    end
+    project.build_configurations.each do |config|
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+    end
+  end
+end

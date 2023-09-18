@@ -1,6 +1,6 @@
 //
 //  MockedData.swift
-//  MUXSDKKalturaTests
+//  MUXSDKStatsKalturaTests
 //
 //  Created by Stephanie Zuñiga on 9/11/21.
 //  Copyright © 2021 Mux, Inc. All rights reserved.
@@ -10,7 +10,7 @@ import Foundation
 import MuxCore
 import PlayKit
 import PlayKit_IMA
-import MUXSDKKaltura
+import MUXSDKStatsKaltura
 @testable import Mux_Stats_Google_IMA_Kaltura
 
 enum MockedData {

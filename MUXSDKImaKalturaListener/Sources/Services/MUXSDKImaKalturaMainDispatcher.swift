@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import MUXSDKKaltura
+import MUXSDKStatsKaltura
 import MuxCore
 
 class MUXSDKImaKalturaMainDispatcher: MUXSDKImaKalturaDispatcher {

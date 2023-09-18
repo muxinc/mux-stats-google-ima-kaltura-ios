@@ -1,19 +1,17 @@
 PODS:
-  - GoogleAds-IMA-iOS-SDK (3.14.4)
+  - GoogleAds-IMA-iOS-SDK (3.18.1)
   - KalturaNetKit (1.6.1):
     - KalturaNetKit/Core (= 1.6.1)
   - KalturaNetKit/Core (1.6.1):
     - SwiftyJSON (= 5.0.0)
-  - Mux-Stats-Core (4.4.1)
-  - Mux-Stats-Google-IMA-Kaltura (1.0.1):
-    - Mux-Stats-Kaltura (~> 2.0)
+  - Mux-Stats-Core (4.5.2)
+  - Mux-Stats-Google-IMA-Kaltura (2.0.0):
+    - Mux-Stats-Kaltura (~> 3.0)
     - PlayKit_IMA
-  - Mux-Stats-Google-IMA-Kaltura/Tests (1.0.1):
-    - Mux-Stats-Kaltura (~> 2.0)
-    - PlayKit_IMA
-  - Mux-Stats-Kaltura (2.0.1):
-    - Mux-Stats-Core (~> 4.4)
-    - PlayKit (~> 3.21)
+    - PlayKit_IMA (~> 1.14)
+  - Mux-Stats-Kaltura (3.0.0):
+    - Mux-Stats-Core (~> 4.5.2)
+    - PlayKit (~> 3.27.2)
   - ObjcExceptionBridging (1.0.1):
     - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
   - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
@@ -24,9 +22,9 @@ PODS:
     - PlayKitUtils (~> 0.5)
     - SwiftyJSON (= 5.0.0)
     - XCGLogger (= 7.0.0)
-  - PlayKit_IMA (1.13.0):
-    - GoogleAds-IMA-iOS-SDK (= 3.14.4)
-    - GoogleAds-IMA-tvOS-SDK (= 4.4.2)
+  - PlayKit_IMA (1.14.0):
+    - GoogleAds-IMA-iOS-SDK (= 3.18.1)
+    - GoogleAds-IMA-tvOS-SDK (= 4.6.1)
     - PlayKit (~> 3.22)
   - PlayKitUtils (0.5.1)
   - SwiftyJSON (5.0.0)
@@ -36,16 +34,16 @@ PODS:
     - ObjcExceptionBridging
 
 DEPENDENCIES:
-  - Mux-Stats-Google-IMA-Kaltura (from `../`)
-  - Mux-Stats-Google-IMA-Kaltura/Tests (from `../`)
+  - Mux-Stats-Google-IMA-Kaltura (from `../../`)
   - PlayKit_IMA
 
 SPEC REPOS:
-  trunk:
+  https://github.com/andrewjl-mux/Specs.git:
+    - Mux-Stats-Kaltura
+  https://github.com/Cocoapods/Specs.git:
     - GoogleAds-IMA-iOS-SDK
     - KalturaNetKit
     - Mux-Stats-Core
-    - Mux-Stats-Kaltura
     - ObjcExceptionBridging
     - PlayKit
     - PlayKit_IMA
@@ -55,21 +53,21 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   Mux-Stats-Google-IMA-Kaltura:
-    :path: "../"
+    :path: "../../"
 
 SPEC CHECKSUMS:
-  GoogleAds-IMA-iOS-SDK: c190284044e9a28b3e7422ba9886db015c71a84f
+  GoogleAds-IMA-iOS-SDK: 54941bbcc0fc7408ad5ee13e4347343604927eea
   KalturaNetKit: 2af6c3c2a1abbd8936b5acde45f33f5195125f4a
-  Mux-Stats-Core: 02410ed63b9c5de10aa5a782144be571cfa54428
-  Mux-Stats-Google-IMA-Kaltura: 7b3babef5e8c9d8e1e0b0aac5261ca757bddd50f
-  Mux-Stats-Kaltura: b4604c0bb3acb51e30ac07e23e8c74b5bc9497ab
+  Mux-Stats-Core: b747ca415f883e2b2d9475d8cc0ac3079167bf6b
+  Mux-Stats-Google-IMA-Kaltura: df45924aed7af4ab3e729c4afedc780692ec6ecf
+  Mux-Stats-Kaltura: 2694a66cc632ddf6ecc9ee8e83515e0fe5753f9c
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
   PlayKit: 4e2c81a6495b2266cc523f767e6e36eb78305ac0
-  PlayKit_IMA: 666c7c06853058802ca552d2fb9c8dc25db1ed74
+  PlayKit_IMA: b7a37ba5474f3397f9c0880e7105fed72c21bc02
   PlayKitUtils: 4a11aef6488e778d10b774702ba79dd0cfa0ef11
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   XCGLogger: 0434f15e3909cdc450bb63faf638b8792ab782ab
 
-PODFILE CHECKSUM: a557b42b510f7442559a31e2c194117647a3a9f5
+PODFILE CHECKSUM: ebca3bbbd873ee3d26fc3341bed7f3bcfdfba0bc
 
-COCOAPODS: 1.12.0
+COCOAPODS: 1.12.1
