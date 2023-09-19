@@ -11,7 +11,7 @@ import PlayKit
 import MUXSDKStatsKaltura
 import MuxCore
 import MediaPlayer
-import MUXStatsGoogleIMAKaltura
+import MUXSDKStatsGoogleIMAKaltura
 
 class PlayerViewController: UIViewController {
     private var kalturaPlayer: Player?

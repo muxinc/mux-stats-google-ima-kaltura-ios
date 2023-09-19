@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   The Mux-Stats-Google-IMA-Kaltura is designed to be used with Mux-Stats-Kaltura and GoogleAds-IMA-iOS-SDK to track performance analytics and QoS monitoring for video.
                           DESC
 
-  s.module_name             = 'MUXStatsGoogleIMAKaltura'
+  s.module_name             = 'MUXSDKStatsGoogleIMAKaltura'
 
   s.homepage                = 'https://mux.com'
   s.social_media_url        = 'https://twitter.com/muxhq'
