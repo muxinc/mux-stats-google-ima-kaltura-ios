@@ -20,14 +20,11 @@ cd apps/DemoApp
 echo "▸ Reset Local Cocoapod Cache"
 pod cache clean --all
 
-pod repo add andrewjl-mux-specs https://github.com/andrewjl-mux/Specs.git
-pod repo update andrewjl-mux-specs
-
 echo "▸ Remove Podfile.lock"
 rm -rf Podfile.lock
 
 echo "▸ Reset Cocoapod Installation"
-pod deintegrate && pod install --clean-install
+pod deintegrate && pod install --clean-install --repo-update
 
 echo "▸ Run Application Tests"
 xcodebuild clean build \
