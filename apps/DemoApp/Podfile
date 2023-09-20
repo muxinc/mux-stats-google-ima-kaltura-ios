@@ -1,6 +1,3 @@
-source 'https://github.com/andrewjl-mux/Specs.git'
-source 'https://github.com/Cocoapods/Specs.git'
-
 target 'DemoApp' do
   platform :ios, '13.0'
   use_frameworks!
