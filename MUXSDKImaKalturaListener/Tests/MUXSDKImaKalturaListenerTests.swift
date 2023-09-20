@@ -7,8 +7,8 @@
 //
 
 import XCTest
-@testable import Mux_Stats_Google_IMA_Kaltura
-import MUXSDKKaltura
+@testable import MUXSDKStatsGoogleIMAKaltura
+import MUXSDKStatsKaltura
 import MuxCore
 import PlayKit
 

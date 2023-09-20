@@ -6,7 +6,7 @@
 //  Copyright © 2022 Mux, Inc. All rights reserved.
 //
 
-import MUXSDKKaltura
+import MUXSDKStatsKaltura
 import MuxCore
 import PlayKit
 import GoogleInteractiveMediaAds

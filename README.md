@@ -17,7 +17,7 @@ MUXSDKImaListener is available through [CocoaPods](https://cocoapods.org). To in
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Mux-Stats-Google-IMA-Kaltura'
+pod 'ux-Stats-Google-IMA-Kaltura-iOS'
 ```
 
 ## Releasing a new version

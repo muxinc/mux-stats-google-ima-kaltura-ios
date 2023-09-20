@@ -8,10 +8,10 @@
 
 import UIKit
 import PlayKit
-import MUXSDKKaltura
+import MUXSDKStatsKaltura
 import MuxCore
 import MediaPlayer
-import Mux_Stats_Google_IMA_Kaltura
+import MUXSDKStatsGoogleIMAKaltura
 
 class PlayerViewController: UIViewController {
     private var kalturaPlayer: Player?

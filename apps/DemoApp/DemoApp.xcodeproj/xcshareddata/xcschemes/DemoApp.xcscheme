@@ -34,16 +34,6 @@
          </CommandLineArgument>
       </CommandLineArguments>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0DD6BF1D9F5DEBE296901A0A18C44D37"
-               BuildableName = "Mux-Stats-Google-IMA-Kaltura-Unit-Tests.xctest"
-               BlueprintName = "Mux-Stats-Google-IMA-Kaltura-Unit-Tests"
-               ReferencedContainer = "container:Pods/Pods.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
