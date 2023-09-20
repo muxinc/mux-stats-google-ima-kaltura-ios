@@ -11,7 +11,7 @@ import MuxCore
 import PlayKit
 import PlayKit_IMA
 import MUXSDKStatsKaltura
-@testable import Mux_Stats_Google_IMA_Kaltura
+@testable import MUXSDKStatsGoogleIMAKaltura
 
 enum MockedData {
     static let playerName = "Test Player"
